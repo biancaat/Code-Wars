@@ -8,7 +8,7 @@ function disemvowel (str){
     let strArr = str.split('')
     // filter the vowels out
     let filtered = strArr.filter(x => x !== 'a' && x !== 'e' && x !== 'i' && x !== 'o' && x !== 'u' && x !== 'A' && x !== 'E' && x !== 'I' && x !== 'O' && x !== 'U' )
-
+    // return the filtered array and turn it back into string 
     return filtered.join('')
 }
 
