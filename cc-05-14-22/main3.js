@@ -4,6 +4,6 @@
 // P: turn parameter into array. filter through array. join array
 
 
-function removeExclamationMarks(s) {
-    return removeExclamationMarks.replaceAll('!',' ')
+  function removeExclamationMarks(s) {
+    return s.split('').filter(a => a !== '!').join('')
   }
