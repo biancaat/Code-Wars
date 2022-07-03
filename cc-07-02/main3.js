@@ -20,7 +20,8 @@ function inAscOrder(arr) {
     return arr.join('') === arr.sort((a,b)=> a-b ).join('')
   }
   
-  
+//   original
+
   function inAscOrder(arr) {
     let newArr = []
     for (let i = 0; i < arr.length; i++){
