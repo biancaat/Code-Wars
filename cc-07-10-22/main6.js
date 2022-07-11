@@ -32,3 +32,8 @@ function createPhoneNumber(numbers){
     }
      return format
    }
+
+   function findOdd(A) {
+    return A.filter((e,i,a) => e % 2 !== 0).sort().filter((e,i,a) => e == (i + 1))
+  }
+  
