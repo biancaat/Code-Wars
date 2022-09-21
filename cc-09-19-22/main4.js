@@ -7,3 +7,4 @@ function solve(arr){
     let indexOfMissing = arr.map((e,i,a) => a.includes(e *-1)).indexOf(false)
     return arr[indexOfMissing]
  }
+
