@@ -18,7 +18,7 @@ function switcher(x){
     
      return x.map(e => e++).map((e,i,a) => alphabet[e]).join('')
     
-    // return x.map(e => e++).map((e,i,a) => alphabet.map((x,y,z) => y+1 == e ? x : '')).flat().filter(e => e !== '').join('')
+
    }
    
    
