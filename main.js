@@ -7,5 +7,4 @@ function min(arr, toReturn) {
     return toReturn == "value" ? Math.min(...arr) : arr.indexOf(Math.min(...arr))
   }
   
-  min([5,4,2,3,1], 'valu')
   
