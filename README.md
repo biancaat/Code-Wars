@@ -1,8 +1,3 @@
-# CodeWars Challenges: <a target="_blank" href="https://shawncharles.com/Codewars" >Visit Here</a> 
-
-![alt tag](https://github.com/CharlesCreativeContent/CodeWars/blob/master/Screen%20Shot%202022-02-10%20at%202.54.15%20AM.png)
-A repository filled with my codewars challenges (kata).
-
 ## How It's Made:
 
 **Tech used:** <img src="https://img.shields.io/static/v1?label=|&message=JAVASCRIPT&color=3c7f5d&style=plastic&logo=javascript"/>
