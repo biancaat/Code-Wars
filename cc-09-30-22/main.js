@@ -6,10 +6,10 @@
 function compare(s1, s2) {
   // if strings are null their sum is treated as if strign was empty
   if (s1 == null){
-    sum1 = 0
+    s1 = ''
   }
     if (s2 == null){
-    sum2 = 0
+    s2 = ''
   }
   
   // treat all letters as uppercase
