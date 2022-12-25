@@ -1,5 +1,3 @@
-//6KYU
-
 // P: a string that represents a dirty file name
 // R: return the filename with the first extension only
 // E: "1_This_is_an_otherExample.mpg.OTHEREXTENSIONadasdassdassds34" => 'This_is_an_otherExample.mpg'
