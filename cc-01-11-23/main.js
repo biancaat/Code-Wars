@@ -22,3 +22,9 @@ function solve(a,b){
      
      return uniqueA+uniqueB
    };
+
+  //  refactored
+
+  function solve(a,b){
+    return [...a+b].filter(e => !a.includes(e) || !b.includes(e)).join('') 
+     }
