@@ -7,6 +7,6 @@
 function change(string){
     let alphabet = 'abcdefghijklmnopqrstuvwxyz'
     // loop through alphabet array, if the input string includes the alphabet element, sub the letter with 1, if not sub the letter with 0
-        return alphabet.toLowerCase().split('').map((e,i,a) => string.includes(e) ? 1:0).join('')
+        return alphabet.split('').map((e,i,a) => string.toLowerCase().includes(e) ? 1:0).join('')
     }
     
